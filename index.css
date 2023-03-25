@@ -1,0 +1,66 @@
+* {
+  padding: 0px;
+  margin: 0;
+  font-family: sans-serif;
+  background: url('./pic1.avif');
+  background-size: cover;
+}
+
+.box {
+  width: 300px;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%) ;
+  background-color: rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700px;
+}
+
+.input-style{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 14px;
+    border: 3px solid #30496e;
+    padding: 14px 10px;
+    width: 220px;
+    color: white;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+.input-style:focus{
+    width: 270px;
+    border-color: rgb(234, 234, 111);
+}
+.input-style::placeholder{
+    color: rgb(189, 220, 235);
+}
+
+#submit{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 14px;
+    border: 3px solid #c2e640;
+    padding: 14px 10px;
+    color: #edcdcd;;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+#submit:hover{
+    background: rgba(39, 45, 76, 0.738);
+}
